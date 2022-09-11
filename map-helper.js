@@ -90,7 +90,3 @@ pluck(paints,"color");
 
 
 
-
-
-
-
