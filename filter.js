@@ -1,9 +1,7 @@
 const products = [
-    {name: cucumber, type: vegetable, quantity: 0, price: 1},
     {name: banana, type: fruit,quantity: 10, price: 15},
     {name: celery, type: vegetable,quantity: 30, price: 13},
     {name: orange, type: fruit,quantity: 3, price:5},
-
 ];
 
 
@@ -32,4 +30,25 @@ products.filter(function (product) {
 
 // FIlter is a conditional method. Returns array according to the condition you provide
 
+// Coding Exercise 6: Filtering Values
 
+const numbers = [15, 25, 35, 45, 55, 65, 75, 85, 95];
+const filteredNumbers = numbers.filter(function(num) {
+    return num > 50;
+});
+
+// Coding Exercise 7: Handling Permissions with Filter
+
+const users = [
+    { id: 1, admin: true },  
+    { id: 2, admin: false },
+    { id: 3, admin: false },
+    { id: 4, admin: false },
+    { id: 5, admin: true },
+   ];
+
+const filteredUsers = users.filter(function(user) {
+    return user.admin === true;
+});
+
+console.log(filteredUsers);
