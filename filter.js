@@ -52,3 +52,8 @@ const filteredUsers = users.filter(function(user) {
 });
 
 console.log(filteredUsers);
+
+
+/* The filter() method creates a new array with all elements that pass a testing function. 
+If no elements satisfy the testing function return anempty array. */
+

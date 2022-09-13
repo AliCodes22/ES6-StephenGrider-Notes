@@ -1,15 +1,15 @@
 
 // The Map Helper
 
-var numbers = [1,2,3];
-var doubledNumbers = [];
+// var numbers = [1,2,3];
+// var doubledNumbers = [];
 
-// Classic for loop
-for (let i = 0; i < numbers.length; i++) {
-    doubledNumbers.push(numbers[i] * 2);    
-};
+// // Classic for loop
+// for (let i = 0; i < numbers.length; i++) {
+//     doubledNumbers.push(numbers[i] * 2);    
+// };
 
-console.log(doubledNumbers);
+// console.log(doubledNumbers);
 
 
 // In large, complex JavaScript applications, we want to avoid mutating arrays and changing date whenever, wherever possible.
@@ -18,9 +18,9 @@ console.log(doubledNumbers);
 
 - It returns a new array */
 
-const doubled = numbers.map(function(number){
-    return number * 2;
-});
+// const doubled = numbers.map(function(number){
+//     return number * 2;
+// });
 
 
 
